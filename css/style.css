@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+header {
+  padding: 18px 0;
+  background-color: #f0f9ff;
+}
+.wrapper {
+  width: 70%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 12%;
+  float: left;
+  margin-top: 14px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  width: 48%;
+  float: left;
+  margin: 0 4%;
+  margin-top: 20px;
+}
+
+.menu ul {
+  overflow: hidden;
+}
+
+.menu ul li {
+  list-style: none;
+  float: left;
+  margin-right: 30px;
+}
+
+.menu ul li:last-child {
+  margin-right: 0;
+}
+
+.menu ul li a {
+  text-transform: capitalize;
+  color: #292640;
+  font-weight: 500;
+}
+
+.menu ul li a:hover {
+  color: #ff6162;
+}
+
+.purchase {
+  width: 30%;
+  float: right;
+  text-align: end;
+}
+
+.common-btn a {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #ff6162;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.purchase a:hover {
+  background-color: #ff7474;
+}
+
+/* ===== end header ====== */
+
+/* ===== another navbar link ===== */
+
+.another-page {
+  margin-top: 80px;
+  text-align: center;
+  background-color: rgb(209, 246, 255);
+  padding: 120px 0;
+}
+
+.another-page a {
+  background-color: #5567d1;
+  padding: 15px 30px;
+}
+
+/* quick header start */
+
+.quick-header {
+  background-color: transparent;
+  padding: 12px 0;
+  border-bottom: 2px solid #f0f2f4;
+}
+
+.quick-header .logo {
+  width: 10%;
+}
+
+.quick-header .menu {
+  float: right;
+}
+
+.quick-header .menu ul {
+  float: right;
+}
+
+.quick-header ul li a {
+  color: #0f2656;
+}
+
+.quick-header ul li a:hover {
+  color: #008aff;
+}
