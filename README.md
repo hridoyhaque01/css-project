@@ -3,7 +3,7 @@
 <h2>copy site link address ?</h2>
 
 ```sh
-    https://hridoyhaque01.github.io/css-project/
+https://hridoyhaque01.github.io/css-project/
 ```
 
 <br>
