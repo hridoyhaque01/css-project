@@ -43,8 +43,7 @@ img {
 .menu {
   width: 48%;
   float: left;
-  margin: 0 4%;
-  margin-top: 20px;
+  margin: 20px 4% 0;
 }
 
 .menu ul {
@@ -75,11 +74,12 @@ img {
   width: 30%;
   float: right;
   text-align: end;
+  word-wrap: normal;
 }
 
 .common-btn a {
   display: inline-block;
-  padding: 20px 30px;
+  padding: 18px 30px;
   background-color: #ff6162;
   color: #fff;
   text-transform: capitalize;
@@ -107,6 +107,8 @@ img {
 
 .quick-header .menu {
   float: right;
+  width: 70%;
+  margin: 24px 0;
 }
 
 .quick-header .menu ul {
