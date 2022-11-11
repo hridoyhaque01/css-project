@@ -16,7 +16,11 @@ a {
   transition: 0.4s;
 }
 
-header {
+li {
+  list-style: none;
+}
+
+.header {
   padding: 18px 0;
   background-color: #f0f9ff;
 }
@@ -32,7 +36,7 @@ header {
   margin-top: 14px;
 }
 
-.logo img {
+img {
   width: 100%;
 }
 
@@ -48,7 +52,6 @@ header {
 }
 
 .menu ul li {
-  list-style: none;
   float: left;
   margin-right: 30px;
 }
@@ -63,7 +66,8 @@ header {
   font-weight: 500;
 }
 
-.menu ul li a:hover {
+.menu ul li a:hover,
+.ingredient {
   color: #ff6162;
 }
 
@@ -88,20 +92,6 @@ header {
 }
 
 /* ===== end header ====== */
-
-/* ===== another navbar link ===== */
-
-.another-page {
-  margin-top: 80px;
-  text-align: center;
-  background-color: rgb(209, 246, 255);
-  padding: 120px 0;
-}
-
-.another-page a {
-  background-color: #5567d1;
-  padding: 15px 30px;
-}
 
 /* quick header start */
 
@@ -129,4 +119,98 @@ header {
 
 .quick-header ul li a:hover {
   color: #008aff;
+}
+
+/* ===== another navbar link ===== */
+
+.another-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.another-page a {
+  background-color: #6b2be2;
+  padding: 15px 30px;
+}
+
+/* semantic and non semantic tags  */
+
+#semantic {
+  /* margin-top: 20px; */
+  padding: 60px 0;
+  /* background-color: rgb(209, 246, 255); 136 191 255 */
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.elements {
+  width: 48%;
+}
+
+.elements h2 {
+  font-size: 28px;
+  font-weight: 600;
+  /* color: #6b2be2; */
+}
+
+.semantic {
+  float: left;
+}
+
+.tag-lists {
+  margin-top: 20px;
+  /* background-color: rgba(165, 178, 255, 0.3); */
+  background-color: rgba(136, 191, 255, 0.3);
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.tag-lists h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.tag-lists p strong {
+  color: #6b2be2;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.output {
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.output h4,
+.output summary {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.output p,
+.output figcaption {
+  font-size: 14px;
+  color: rgb(70, 70, 70);
+}
+
+.output img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+mark {
+  background-color: rgba(165, 178, 255, 0.4);
+}
+
+.non-semantic {
+  float: right;
 }
